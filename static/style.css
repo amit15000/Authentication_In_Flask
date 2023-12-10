@@ -127,3 +127,53 @@ section {
 .text-center mt-3 a {
   color: #007bff;
 }
+.form-outline input::placeholder {
+  font-weight: normal; /* or use ' lighter' */
+}
+/* Default styles */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.form-outline {
+  width: 100%;
+}
+
+/* Adjust styles for smaller screens */
+@media only screen and (max-width: 768px) {
+  .container-fluid {
+    padding: 0;
+  }
+
+  .col-md-9 {
+    display: none; /* Hide the left column on smaller screens */
+  }
+
+  .col-md-8 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  img.img-fluid {
+    max-width: 80%; /* Decrease the image size on smaller screens */
+    height: auto;
+  }
+
+  .text-center.text-lg-start {
+    text-align: center;
+  }
+
+  /* Adjust other styles as needed */
+  .col-md-9 {
+    display: block; /* Make the left column visible on smaller screens */
+  }
+}
