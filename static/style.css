@@ -1,0 +1,66 @@
+/* Store this code in 'style.css' file inside the 'static' folder*/
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+.header {
+  padding: 5px 120px;
+  width: 150px;
+  height: 70px;
+  background-color: #236b8e;
+}
+
+.border {
+  padding: 80px 50px;
+  width: 400px;
+  height: 450px;
+  border: 1px solid #236b8e;
+  border-radius: 0px;
+  background-color: #9ac0cd;
+}
+
+.btn {
+  padding: 10px 40px;
+  background-color: #236b8e;
+  color: #ffffff;
+  font-style: oblique;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.textbox {
+  padding: 10px 40px;
+  background-color: #236b8e;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: #ffffff;
+  opacity: 1;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.word {
+  color: #ffffff;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.bottom {
+  color: #236b8e;
+  font-style: oblique;
+  font-weight: bold;
+}
