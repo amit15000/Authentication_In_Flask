@@ -64,3 +64,66 @@
   font-style: oblique;
   font-weight: bold;
 }
+/* Reset some default margin */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* Set a global font family */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Section: Design Block */
+section {
+  padding: 50px 0;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: hsl(0, 0%, 96%);
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.jumbotron p {
+  color: hsl(217, 10%, 50.8%);
+}
+
+/* Card */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 5rem;
+}
+
+/* Form styling */
+.form-outline {
+  margin-bottom: 2rem;
+}
+
+/* Checkbox styling */
+.form-check {
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+/* Social buttons */
+.btn-floating {
+  margin: 0 0.5rem;
+}
+
+/* Already a member link */
+.text-center mt-3 a {
+  color: #007bff;
+}
